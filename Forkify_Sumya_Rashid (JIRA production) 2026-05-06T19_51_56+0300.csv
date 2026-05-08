@@ -1,0 +1,215 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Labels,Description,Environment,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Custom field ((backup) Browser/s),Custom field ((backup) Exists in the current implementation?),Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((backup, del) Test tasks)","Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Build/s),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (Development),Custom field (End Date),Custom field (Epic Link),Custom field (Epic/Theme),Custom field (Error Type),Custom field (Expected Result),Custom field (Flagged),Custom field (Found by),Custom field (Functionality Changes?),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Request Info From),Custom field (Revised),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Share with),Custom field (Solution),Sprint,Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (Test Type),Custom field (TestLink case),Custom field (Time Category),Custom field (To Attention Of),Custom field (Type of engagement),Custom field (URL),Custom field (Users),Custom field (Version To Fix),Custom field (WSJF),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment
+Recipe Page: Users can not see any list of created recipes.,QATC-988418,3986758,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 9:58 AM,23/Apr/26 9:58 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Check for Recipe list
+
+Actual Result: Users can not see any list of created recipes. Please see [^bug18.png]
+
+Expected Result: User should see a recipe list from which they can see all uploaded recipes.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 9:58 AM;s.rashid;bug18.png;https://jira.a1qa.com/secure/attachment/2777076/bug18.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftmts:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Servings: System accepts 20000000000000000000 servings. ,QATC-988411,3986751,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 9:50 AM,23/Apr/26 9:50 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Enter all required fields
+ # Enter 20000000000000000000 servings
+ # Enter ingredients
+ # Upload the recipe
+ # Observe the serving
+
+Actual Result: System accepts 20000000000000000000 servings. Please see [^bug17.1.png],[^bug17.2.png]
+
+Expected Result: System should restrict serving to a reasonable range.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 9:43 AM;s.rashid;bug17.1.png;https://jira.a1qa.com/secure/attachment/2777069/bug17.1.png","23/Apr/26 9:43 AM;s.rashid;bug17.2.png;https://jira.a1qa.com/secure/attachment/2777068/bug17.2.png",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftms8:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Recipe Data: Recipe uploads successfully without an ingredient name,QATC-988399,3986737,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 9:35 AM,23/Apr/26 9:35 AM,23/Apr/26 12:42 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Enter all requirements
+ # Enter only the quantity and unit for one ingredient
+ # Upload the recipe
+ # Observe the uploaded recipe's ingredient section
+
+Actual Result: Recipe uploads successfully without an ingredient name. Please see [^bug16.mp4]
+
+Expected Result: Recipe should only be uploaded with the proper ingredient name.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 9:29 AM;s.rashid;bug16.mp4;https://jira.a1qa.com/secure/attachment/2777053/bug16.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftmp4:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Search: Blank search keeps loading without any message,QATC-988390,3986726,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 9:23 AM,23/Apr/26 9:23 AM,23/Apr/26 12:42 PM,,1.0,,Forkify,,0,,"Steps: 
+ # Go to [https://forkify.qa-academy.eu/]
+ # Keep the search bar blank
+ # Click the search button
+ # Observe the result 
+
+Actual Result: Blank search keeps loading without any message. Please see [^bug14.mp4].
+
+Expected Result: Search button should be disabled when input field is empty.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 9:23 AM;s.rashid;bug14.mp4;https://jira.a1qa.com/secure/attachment/2777041/bug14.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftmmo:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Preparation time: Serving time editable but preparation time not editable,QATC-988383,3986717,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,FAD,,s.rashid,s.rashid,23/Apr/26 9:13 AM,23/Apr/26 9:58 AM,23/Apr/26 12:42 PM,23/Apr/26 9:58 AM,1.0,,Forkify,,0,,"Steps: 
+ # Go to [https://forkify.qa-academy.eu/]
+ # Add one recipe successfully
+ # Upload the recipe
+ # Click the increase and decrease buttons for servings
+ # Observe the Preparation time, editable or not.
+
+Actual Result: Serving time is editable, but preparation time is not editable. Please see [^bug15.png]
+
+Expected Result: Users should be able to change the preparation time as well.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 9:13 AM;s.rashid;bug15.png;https://jira.a1qa.com/secure/attachment/2777031/bug15.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftmko:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Preview: Preview step is missing ,QATC-988380,3986713,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 9:05 AM,23/Apr/26 9:05 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps: 
+ # Go to [https://forkify.qa-academy.eu/]
+ # Add one recipe successfully
+ # Upload the recipe
+ # Check for the Preview
+
+Actual Result:  Preview step is missing. Please see [^bug13.mp4]
+
+Expected Result: User should see preview before actually uploading the recipe as per requirements.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 9:05 AM;s.rashid;bug13.mp4;https://jira.a1qa.com/secure/attachment/2777019/bug13.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftmjs:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Preparation Time: Minutes” changes to “miuntes” when serving value is increased,QATC-988362,3986686,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 8:03 AM,23/Apr/26 8:03 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps: 
+ # Go to [https://forkify.qa-academy.eu/]
+ # Add one recipe successfully
+ # Upload the recipe
+ # Increase the Serving 
+ # decrease the serving
+ # Observe the Preparation Time
+
+Actual Result: Minutes” changes to “miuntes” when serving value is increased. Please see [^bug12.mp4]
+
+Expected Result: The label should always remain “minutes” regardless of serving changes","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 8:03 AM;s.rashid;bug12.mp4;https://jira.a1qa.com/secure/attachment/2776988/bug12.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|iftmds:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Add Recipe: Success message appears on every click of the ""Add Recipe"" button",QATC-988345,3986669,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 7:36 AM,23/Apr/26 7:36 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps: 
+ # Go to [https://forkify.qa-academy.eu/]
+ # Add one recipe successfully
+ # Upload the recipe
+ # Click the ""Add Recipe"" button again
+
+Actual Result: Success message appears on every click of the ""Add Recipe"" button. Please see [^bug11.mp4]
+
+Expected Result: After successful submission, repeated clicks on “Add Recipe” should not trigger another success message for the same submission","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 7:31 AM;s.rashid;bug11.mp4;https://jira.a1qa.com/secure/attachment/2776977/bug11.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftma0:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Recipe Page:  The delete option is not visible anywhere in the recipe page. ,QATC-988339,3986663,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 7:14 AM,23/Apr/26 7:14 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the search option
+ # Enter Recipe name
+ # Click the search button
+ # Look for the delete button in the recipe page
+
+Actual Result: The delete option is not visible anywhere in the recipe page. Please see [^bug10.mp4]
+
+Expected Result: The delete option should be available for each recipe.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 7:10 AM;s.rashid;bug10.mp4;https://jira.a1qa.com/secure/attachment/2776969/bug10.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm8o:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Recipe Page: Edit option is not visible anywhere in recipe page,QATC-988338,3986662,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Duplicate,,s.rashid,s.rashid,23/Apr/26 7:07 AM,24/Apr/26 2:52 PM,06/May/26 7:51 PM,24/Apr/26 2:52 PM,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the search option
+ # Enter Recipe name
+ # Click the search button
+ # Observe the edit button in the recipe page
+
+Actual Result: The edit option is not visible anywhere in the recipe page. Please see [^bug9.mp4]
+
+Expected Result: The edit option should be available for each recipe.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 7:06 AM;s.rashid;bug9.mp4;https://jira.a1qa.com/secure/attachment/2776968/bug9.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm8g:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Search: Searching with ingredient name does not show the recipe,QATC-988333,3986657,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 6:54 AM,23/Apr/26 6:54 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the search option
+ # Enter ""2 cup strawberry"" ingredient name
+ # Click the search button
+ # Observe the result found
+
+Actual Result: Searching with the ingredient name does not show the recipe. Please see [^bug8.mp4]
+
+Expected Result: Searching with the ingredient should show the recipe.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 6:54 AM;s.rashid;bug8.mp4;https://jira.a1qa.com/secure/attachment/2776963/bug8.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm7c:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Recipe Data: After adding 6 ingredients , no add button is displayed to add more ingredients",QATC-988324,3986648,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 6:30 AM,23/Apr/26 6:30 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the ""Add Recipe "" button
+ # Enter recipe title Fruit salad
+ # Enter source URL 
+ # Enter image URL
+ # Enter the publisher's name, [Kelly O'Sullivan|https://www.thepioneerwoman.com/author/17064/kelly-osullivan/]
+ # Enter preparation time 20 minutes
+ # Enter servings -10
+ # Add all 6 ingredients 
+ # Observe the ingredient section.
+
+Actual Result:  After adding 6 ingredients, no add button is displayed to add more ingredients. Please see [^bug7.png],[^bug7.mp4]
+
+Expected Result: The add button should be displayed after adding 6 ingredients.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 6:29 AM;s.rashid;bug7.mp4;https://jira.a1qa.com/secure/attachment/2776951/bug7.mp4","23/Apr/26 6:29 AM;s.rashid;bug7.png;https://jira.a1qa.com/secure/attachment/2776950/bug7.png",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm5c:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Serving: Serving value does not update when clicking increase/decrease button,QATC-988318,3986642,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 6:00 AM,23/Apr/26 6:00 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the ""Add Recipe "" button
+ # Enter recipe title Yogurt
+ # Enter source URL 
+ # Enter image URL
+ # Enter the publisher's name, Emma Christensen
+ # Enter preparation time 20 minutes
+ # Enter servings -10
+ # Add ingredients (milk and lemon)
+ # Click the ""Upload"" button
+ # Click the increase and decrease buttons for servings.
+ # observe the changes after clicking the increase/decrease option for servings
+
+Actual Result: Serving value does not update when clicking increase/decrease button. Please see [^bug6.mp4]
+
+Expected Result: Serving value should increase or decrease accordingly","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 6:00 AM;s.rashid;bug6.mp4;https://jira.a1qa.com/secure/attachment/2776943/bug6.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm40:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Preview: The bookmark button is present but not working,QATC-988312,3986636,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Cannot Reproduce,,s.rashid,s.rashid,23/Apr/26 5:44 AM,24/Apr/26 2:54 PM,06/May/26 7:51 PM,24/Apr/26 2:54 PM,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the ""Add Recipe "" button
+ # Enter recipe title Yogurt
+ # Enter source URL 
+ # Enter image URL
+ # Enter the publisher's name, Emma Christensen
+ # Enter preparation time 20 minutes
+ # Enter servings -10
+ # Add ingredients (milk and lemon)
+ # Save the recipe
+ # Click the Bookmark button
+ # Observe the Bookmarked list
+
+Actual Result: The bookmark button is present but not working. Please see [^bug5.mp4].
+
+Expected Result: After clicking the bookmark button, the recipe should be added to the bookmarks.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 5:43 AM;s.rashid;bug5.mp4;https://jira.a1qa.com/secure/attachment/2776936/bug5.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm2o:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Servings: The system acccepts a negative value (-10) for serving,QATC-988306,3986630,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,23/Apr/26 5:27 AM,23/Apr/26 5:27 AM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the ""Add Recipe "" button
+ # Enter recipe title Yogurt
+ # Enter source URL 
+ # Enter image URL
+ # Enter the publisher's name, Emma Christensen
+ # Enter preparation time 20 minutes
+ # Enter servings -10
+ # Add ingredients (milk and lemon)
+ # check the servings after saving
+
+Actual Result: The system accepts a negative value (-10) for serving. Please see [^bug4.png]
+
+Expected Result: The system should not receive any negative value.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"23/Apr/26 5:25 AM;s.rashid;bug4.png;https://jira.a1qa.com/secure/attachment/2776928/bug4.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftm1c:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Preview: Servings can be changed but cannot be reduced below 309,QATC-988079,3986217,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,22/Apr/26 2:27 PM,22/Apr/26 2:27 PM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to [https://forkify.qa-academy.eu/]
+ # Click the ""Add recipe"" button
+ # Enter the Title as Bread
+ # Enter Source URL 
+ # Enter image URL
+ # Enter Publisher's name, Anna
+ # Enter preparation time 65 minutes
+ # Enter servings 615
+ # Enter all ingredients
+ # Save the recipe
+ # Decrease serving from the preview
+ # Observe decreasing serving after 309
+
+Actual Result: Servings can be changed but cannot be reduced below 309. Please see [^bug2.mp4]
+
+Expected Result: Servings should be freely adjustable in the preview.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"22/Apr/26 2:26 PM;s.rashid;bug2.mp4;https://jira.a1qa.com/secure/attachment/2776565/bug2.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftjig:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Recipe Data: Preparation time shows as a plain number (e.g., 65) with no unit",QATC-988069,3986195,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,22/Apr/26 1:50 PM,22/Apr/26 1:50 PM,06/May/26 7:51 PM,,1.0,,Forkify,,0,,"Steps:
+ # Go to  [https://forkify.qa-academy.eu/]
+ # Click the ""Add Recipe"" Button
+ # Enter required fields (for example, Title, source URL, image URL)
+ # Enter 65 in the preparation time
+ # Observe the preparation time 
+
+Actual Result:  Preparation time shows as a plain number (65) with no unit. Please see [^bug1.png]
+
+Expected Result: It should display with a clear unit like 65 min or 1 hour 5 min.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"22/Apr/26 1:47 PM;s.rashid;bug1.png;https://jira.a1qa.com/secure/attachment/2776536/bug1.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|iftjdk:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
